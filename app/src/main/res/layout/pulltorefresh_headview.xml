@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <View
+           android:layout_width="match_parent"
+           android:layout_height="640dp"/>
+
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="160dp"
+             android:background="#555555"
+             android:layout_alignParentBottom="true"
+             android:src="@drawable/test_img3"
+             />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_alignParentBottom="true"
+             >
+
+         <ImageView
+             android:id="@+id/scro_iv"
+             android:layout_width="32dp"
+             android:layout_height="32dp"
+             android:layout_marginLeft="16dp"
+             android:layout_marginBottom="160dp"
+
+             android:src="@drawable/userguide_moments_icon"
+             />
+         </LinearLayout>
+
+
+</RelativeLayout>
